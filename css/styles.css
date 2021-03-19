@@ -468,11 +468,11 @@ body {
   background-color: var(--akcent-color);
 }
 /* ====================== Beckdrop-Modal ===================================*/
-.modal.is-hidden{
+.backdrop.is-hidden{
    opacity:0;
    pointer-events: none;
 }
-.modal{
+.backdrop{
   position: fixed;
   top: 0;
   left: 0;
