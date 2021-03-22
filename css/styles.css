@@ -49,7 +49,7 @@ body {
 }
 /* ====================== Components ================================*/
 .container {
-  margin: auto;
+  margin:    auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -660,12 +660,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
 
   transform: translateY(100%);
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: rgba(33, 150, 243, 0.9);
+  transition-delay: 100ms;
+  
 }
 .item:hover .text-cart {
   transform: translateY(0%);
